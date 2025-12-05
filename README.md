@@ -1,4 +1,3 @@
-@"
 
 # PangeoInfraFabrix - Automated Test Suite
 
@@ -6,8 +5,7 @@ E2E test automation for [PangeoInfraFabrix](https://pangeoinfrafabrix.com) using
 
 ## Test Results
 
-**24 tests passing** | **~1.2 minutes** execution time | **100% stability**
-
+**24 tests passing** 
 ## Quick Start
 
 ### Prerequisites
@@ -57,21 +55,7 @@ BASE_URL=https://pangeoinfrafabrix.com npm test
 npx playwright show-report
 ```
 
-#### Other Options
 
-```bash
-# Run in headed mode (see browser)
-npm test -- --headed
-
-# Run specific test file
-npm test homepage
-
-# Run in debug mode
-npm test -- --debug
-
-# Run in UI mode
-npx playwright test --ui
-```
 
 ## Project Structure
 
@@ -275,34 +259,4 @@ npx playwright show-trace test-results/<test-name>/trace.zip
 - **Playwright docs:** https://playwright.dev
 - **Issue tracker:** GitHub Issues
 
-## Author
 
-**Candidate Name:** [Your Name]  
-**Date:** December 2024  
-**Framework:** Playwright 1.40+ with TypeScript  
-**Challenge:** PangeoInfraFabrix Automation Test (Intern Position)
-
----
-
-## Challenge Compliance
-
-| Requirement                             | Status                      |
-| --------------------------------------- | --------------------------- |
-| Playwright TypeScript tests             | Complete                    |
-| README with run instructions            | This file                   |
-| BASE_URL parameterization               | Implemented                 |
-| CI workflow (.github/workflows/e2e.yml) | Created                     |
-| Test architecture report (report.md)    | Created                     |
-| Test artifacts (screenshots/reports)    | Generated                   |
-| Single command run                      | `npm test`                  |
-| Page Objects                            | Implemented                 |
-| No hardcoded secrets                    | Verified                    |
-| Stable tests (3+ runs)                  | 100% pass rate              |
-| Homepage smoke test                     | 6 tests                     |
-| What We Do test                         | 4 tests                     |
-| Projects test (3+ entries)              | 4 tests (34 elements found) |
-| Navigation & link integrity             | 6 tests                     |
-| Read-only operations                    | No destructive actions      |
-
-**Total: 24/24 tests passing**
-"@ | Out-File -FilePath README.md -Encoding utf8
