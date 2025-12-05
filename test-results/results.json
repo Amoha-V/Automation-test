@@ -1,0 +1,1069 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\vamoh\\Downloads\\pangeo-automation-tests\\playwright.config.ts",
+    "rootDir": "C:/Users/vamoh/Downloads/pangeo-automation-tests/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/vamoh/Downloads/pangeo-automation-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/vamoh/Downloads/pangeo-automation-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "homepage.spec.ts",
+      "file": "homepage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Homepage Tests - Required Scenario A",
+          "file": "homepage.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load homepage and verify title contains site name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4817,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Page title: Home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:40.097Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-3dcb62e9f77a35ebdffb",
+              "file": "homepage.spec.ts",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should have primary navigation with logical items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4305,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Navigation links found: \u001b[33m7\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:45.066Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-5f2ac21f3e833f1f3f66",
+              "file": "homepage.spec.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "should display hero heading",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4436,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Hero heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:49.386Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-22fab47d640813282d47",
+              "file": "homepage.spec.ts",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "should have working What We Do link",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4522,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:53.832Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-c5f3b011f0a915a21ac6",
+              "file": "homepage.spec.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "should have working Projects link",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4569,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:58.366Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-1939b736d955e7d015bb",
+              "file": "homepage.spec.ts",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "should have working Contact link",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4456,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:02.949Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-50b1c1f1095e086c9826",
+              "file": "homepage.spec.ts",
+              "line": 52,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "navigation.spec.ts",
+      "file": "navigation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Navigation Tests - Required Scenario E",
+          "file": "navigation.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display navigation bar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4881,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Navigation links found: \u001b[33m7\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:40.099Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-0b778ed5764d5bf912c4",
+              "file": "navigation.spec.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "should navigate to What We Do page and verify URL/heading change",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7287,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ What We Do URL: https://pangeoinfrafabrix.com/#page-3\n"
+                        },
+                        {
+                          "text": "✓ What We Do heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:45.157Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-d8dc613a3b036c01ba84",
+              "file": "navigation.spec.ts",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "should navigate to Projects page and verify URL/heading change",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7631,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Projects URL: https://pangeoinfrafabrix.com/#page-4\n"
+                        },
+                        {
+                          "text": "✓ Projects heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:09:52.464Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-18b6ab7a60adadcf66e6",
+              "file": "navigation.spec.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "should navigate to Contact page and verify URL/heading change",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7051,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contact URL: https://pangeoinfrafabrix.com/#page-6\n"
+                        },
+                        {
+                          "text": "✓ Contact heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:00.109Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-c71ce909bbf7f68283a3",
+              "file": "navigation.spec.ts",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "should return to home when clicking home link",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 8973,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Navigated away from projects, URL: https://pangeoinfrafabrix.com/#home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:07.176Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-289a93fbfc8183cd7080",
+              "file": "navigation.spec.ts",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "should verify all navigation links are working",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4432,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ All navigation links present and valid\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:16.170Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5d2868f7d23420c27cca-a1c7ca11a41a2a760a38",
+              "file": "navigation.spec.ts",
+              "line": 88,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "projects.spec.ts",
+      "file": "projects.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Projects Tests - Required Scenario D",
+          "file": "projects.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should navigate to Projects section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5498,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Navigated to: https://pangeoinfrafabrix.com/#page-4\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:07.434Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3a2958b1096c5d9a8472-93e512bd5107e44a1616",
+              "file": "projects.spec.ts",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should display Projects heading",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5420,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Projects heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:12.941Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3a2958b1096c5d9a8472-a2c86ad754acec1f2837",
+              "file": "projects.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "should have at least 3 project entries or images visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8817,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Images found: \u001b[33m34\u001b[39m\n"
+                        },
+                        {
+                          "text": "✓ Sections found: \u001b[33m9\u001b[39m\n"
+                        },
+                        {
+                          "text": "✓ Items found: \u001b[33m11\u001b[39m\n"
+                        },
+                        {
+                          "text": "✓ Total visual elements: \u001b[33m34\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:18.377Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3a2958b1096c5d9a8472-e0c042f2a6ad7e7a95ed",
+              "file": "projects.spec.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "should display project content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5598,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Project page has substantial content\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:27.213Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3a2958b1096c5d9a8472-1ac7c57ad1c3b3727626",
+              "file": "projects.spec.ts",
+              "line": 52,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "smoke.spec.ts",
+      "file": "smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smoke Tests",
+          "file": "smoke.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "website should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3536,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:20.660Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-ce968bc9ac34edb389e7",
+              "file": "smoke.spec.ts",
+              "line": 5,
+              "column": 3
+            },
+            {
+              "title": "page title should be set",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2511,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Page title: Home\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:24.212Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-e792e60b5362764a3353",
+              "file": "smoke.spec.ts",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "navigation should exist on homepage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4378,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:26.733Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-3462c283a1916f5a3449",
+              "file": "smoke.spec.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "page should have main content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5163,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:31.122Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-40857735eacadc9fa214",
+              "file": "smoke.spec.ts",
+              "line": 26,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "what-we-do.spec.ts",
+      "file": "what-we-do.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "What We Do Tests - Required Scenario C",
+          "file": "what-we-do.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should navigate to What We Do section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5654,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Navigated to: https://pangeoinfrafabrix.com/#page-3\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:32.869Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a334e946e1cd23a46e37-663c4a4c3576f0327c1f",
+              "file": "what-we-do.spec.ts",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should display What We Do heading",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4764,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ What We Do heading: Engineering Tomorrow's Infrastructure - Stronger, Fasterand Smarter\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:38.538Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a334e946e1cd23a46e37-a1aa31dab52c59d89dbe",
+              "file": "what-we-do.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "should display What We Do content section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5011,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ What We Do content section is visible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:43.313Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a334e946e1cd23a46e37-9795a14b8403b994ff6a",
+              "file": "what-we-do.spec.ts",
+              "line": 26,
+              "column": 3
+            },
+            {
+              "title": "should have service information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4825,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Service content length: \u001b[33m3962\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-05T04:10:48.334Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a334e946e1cd23a46e37-be4bb423c17e081302b8",
+              "file": "what-we-do.spec.ts",
+              "line": 35,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-05T04:09:38.929Z",
+    "duration": 74464.876,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
